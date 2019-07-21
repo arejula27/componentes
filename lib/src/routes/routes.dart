@@ -19,6 +19,6 @@ import 'package:componentes/src/pages/input_page.dart';
         'avatar'    : (BuildContext context)=>AvatarPage(),
         'card'      : (BuildContext context)=>CardPage(),
         'animatedContainer':(BuildContext context)=>AnimatedcontainerPage(),
-        'inputs':(BuildContext context)=>inputPage(),
+        'inputs':(BuildContext context)=>InputPage(),
         };
       }

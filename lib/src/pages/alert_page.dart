@@ -17,7 +17,7 @@ class AlertPage extends StatelessWidget {
           color: Colors.blue,
           textColor: Colors.white,
           shape: StadiumBorder(),
-          onPressed: ()=> MostrarAlerta(context),
+          onPressed: ()=> mostrarAlerta(context),
           )
       ),
 
@@ -34,7 +34,7 @@ class AlertPage extends StatelessWidget {
         
     );
   }
-  void MostrarAlerta(BuildContext context){
+  void mostrarAlerta(BuildContext context){
 
     showDialog(
       context: context,
