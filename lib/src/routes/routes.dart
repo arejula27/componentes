@@ -6,6 +6,8 @@ import 'package:componentes/src/pages/home_page.dart';
 import 'package:componentes/src/pages/card_page.dart';
 import 'package:componentes/src/pages/animated_container.dart';
 import 'package:componentes/src/pages/input_page.dart';
+import 'package:componentes/src/pages/sliders_page.dart';
+
 
 
 
@@ -19,6 +21,11 @@ import 'package:componentes/src/pages/input_page.dart';
         'avatar'    : (BuildContext context)=>AvatarPage(),
         'card'      : (BuildContext context)=>CardPage(),
         'animatedContainer':(BuildContext context)=>AnimatedcontainerPage(),
+
         'inputs':(BuildContext context)=>InputPage(),
+
+        'slider': (BuildContext context)=>SliderPage(),
+
+
         };
       }

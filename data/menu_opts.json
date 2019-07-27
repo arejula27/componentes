@@ -21,10 +21,18 @@
             "icon" : "donut_large",
             "texto": "Animated container"
         },
+
         {
             "ruta" : "inputs",
             "icon" : "inputs",
             "texto": "inputs"
+        },
+
+         {
+            "ruta" : "slider",
+            "icon" : "tune",
+            "texto": "Slider- Checks"
+
         }
     ]
 }
