@@ -1,4 +1,5 @@
 
+import 'package:componentes/src/pages/listview_page.dart';
 import 'package:flutter/material.dart';
 import 'package:componentes/src/pages/alert_page.dart';
 import 'package:componentes/src/pages/avatar_page.dart';
@@ -21,10 +22,9 @@ import 'package:componentes/src/pages/sliders_page.dart';
         'avatar'    : (BuildContext context)=>AvatarPage(),
         'card'      : (BuildContext context)=>CardPage(),
         'animatedContainer':(BuildContext context)=>AnimatedcontainerPage(),
-
         'inputs':(BuildContext context)=>InputPage(),
-
         'slider': (BuildContext context)=>SliderPage(),
+        'list': (BuildContext context)=>ListViewPage(),
 
 
         };

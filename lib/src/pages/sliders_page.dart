@@ -19,7 +19,8 @@ class _SliderPageState extends State<SliderPage> {
             _crearSlider(),
             _crearCheckboxList(),
             _crearSwitch(),
-            //para centrar
+
+            //para centrar uso expanded
             Expanded(
               child: _crearImagen(),
             ) ,
@@ -59,8 +60,8 @@ class _SliderPageState extends State<SliderPage> {
 
   Widget _crearImagen() {
 
-    return Image(
-      
+    return FadeInImage(
+      placeholder: AssetImage('assets/jar-loading.gif'),
       image: NetworkImage('https://www.dzoom.org.es/wp-content/uploads/2018/06/aislamiento-elemento-paisaje-angular-734x489.jpg'),
       width: _valorSli,
       fit: BoxFit.contain,
