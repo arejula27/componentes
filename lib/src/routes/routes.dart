@@ -19,7 +19,7 @@ import 'package:componentes/src/pages/sliders_page.dart';
         'avatar'    : (BuildContext context)=>AvatarPage(),
         'card'      : (BuildContext context)=>CardPage(),
         'animatedContainer':(BuildContext context)=>AnimatedcontainerPage(),
-        'list': (BuildContext context)=>SliderPage(),
+        'slider': (BuildContext context)=>SliderPage(),
 
         };
       }

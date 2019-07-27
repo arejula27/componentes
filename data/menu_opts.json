@@ -22,9 +22,9 @@
             "texto": "Animated container"
         },
          {
-            "ruta" : "list",
-            "icon" : "list",
-            "texto": "List"
+            "ruta" : "slider",
+            "icon" : "tune",
+            "texto": "Slider- Checks"
         }
     ]
 }
