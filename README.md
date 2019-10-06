@@ -1,6 +1,6 @@
 # componentes
 
-A new Flutter project.
+Este proyecto de flutter es un catálogo de distintos widgets que se pueden realizar e implementar
 
 ## Getting Started
 
